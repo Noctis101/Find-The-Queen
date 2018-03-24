@@ -1,2 +1,2 @@
 # Find-The-Queen
-This is a numbers game that has an offline version and an online version.
+This is an offline version of a numbers game.

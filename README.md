@@ -17,4 +17,4 @@ The usernames stored are the only one's authorized to play.
 
 Currently, the limitations are that the players are hard-coded (as explained in
 comments) as well as that I'm not sure the code is done properly for clients to
-connec to the server. The latter of the two problems is what I need assistance with.
+connect to the server. The latter of the two problems is what I need assistance with.

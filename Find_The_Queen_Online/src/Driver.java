@@ -18,7 +18,7 @@ import java.util.Random;
 
 public class Driver
 {
-    public void main(String args[]) throws IOException
+    public static void main(String args[]) throws IOException
     {
         @SuppressWarnings("resource")
         ServerSocket socket = new ServerSocket(7621);
@@ -35,7 +35,7 @@ public class Driver
         }
     }
 
-    public class ServerThread extends Thread
+    public static class ServerThread extends Thread
     {
         Socket socket;
 

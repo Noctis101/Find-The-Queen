@@ -534,7 +534,6 @@ public class Driver
 			else
 			{
 				toClient.writeBytes(errorMessage);
-				break;
 			}
 		}
 	}		

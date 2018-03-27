@@ -12,17 +12,17 @@ In doing so, it would negate any possible issue with the design of
 the game and leave for any and all issues to be as a result of the client
 and server aspect.
 
-In the offline version, to facilitate this a GUI would need to be implemented,
-else the players would have to share the same console which would defeat the
-purpose of the game.
+In the offline version, a GUI would need to be implemented in order to facilitate
+logical implementation of carrying out the game, else the players will have to share
+the same console which defeats the purpose of the game.
 
 In the online version (utilizing TCP), two instances of the players (Client class)
-should be created and these players connect to the Driver (Server) and the game
+should be created and these players connect to the Driver (Server class) and the game
 carries out as it should with messages being sent to the respective players
 throughout the game.
 
 The usernames stored are the only one's authorized to play.
 
 Currently, the limitations are that the players are hard-coded (as explained in
-comments) as well as that the code is not done properly for clients to
-connect to the server.
+comments) as well as that the code is not complete (either semantic-wise or syntax-wise)
+for clients toconnect to the server.
